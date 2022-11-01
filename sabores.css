@@ -1,0 +1,166 @@
+ @import url('http://fonts.cdnfonts.com/css/roboto-condensed');
+
+                
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;                                           
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(247, 200, 198);
+    background-image: url(PNG-helado-y-bochitas.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.dir{
+    background-color: black;
+    text-align: center;      
+}
+
+.dir p span{
+    font-size: 2vh;
+    color: darkgrey;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed Light', sans-serif;
+}
+
+.main{
+    background-image: repeating-linear-gradient(157.5deg, rgb(0,0,0) 0px, rgb(0,0,0) 20px,transparent 20px, transparent 22px),repeating-linear-gradient(90deg, rgb(0,0,0) 0px, rgb(0,0,0) 20px,transparent 20px, transparent 22px),linear-gradient(90deg, hsl(333,93%,55%),hsl(45,93%,55%),hsl(117,93%,55%),hsl(189,93%,55%),hsl(261,93%,55%));
+}
+
+nav{
+    text-align:left;
+    padding: 10px 0px;
+}
+
+nav ul li{
+    display: inline;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 0px 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed Light', sans-serif;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 5vh;
+    margin-top: 2%;
+    margin-bottom: 5%;
+
+}
+
+.container-sabores{
+    font-size: 3vh;
+    text-align:center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed Light', sans-serif;
+
+
+
+}
+
+
+
+
+
+
+
+
+/*.tarjetas{
+    display: flex;
+    justify-content:stretch;
+    flex-direction: column;
+
+
+}*/
+
+.tarjetas{
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+
+}
+
+.tarjetita-p {
+    border: 1px solid rgb(200, 200, 200);
+    background-color: transparent;
+    border-radius: 10px;
+    margin: 10px;    
+    box-shadow: -1px 4px 8px -4px rgba(0,0,0,0.75);
+    max-width: 10%;
+    max-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+.texto{
+    width: 100%;
+    text-align: center;
+    /*padding: 15px;*/
+}
+
+.contenedor-img{
+
+    /*width: 100%;
+    height: 100%;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+
+    
+    
+    
+}
+
+img{
+    display:flex;
+    
+    
+
+
+}
+
+/*.fondo{
+    background-image: url(e302cee5bb7dc534120da6237a0ce3d8--winter-background-bleu.jpg);
+}*/
+
+.apartado{
+    /*display: flex;
+    flex-direction: column;*/
+    align-items: center; 
+    /*background-color: azure;*/
+    padding-bottom: 100px; 
+}
+
+
+
+/*p {
+    padding: 15px;
+}*/
+
+footer{
+    font-size: 1.5vh;
+    color: darkgrey;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed Light', sans-serif;
+    text-align: center;
+    background-color: black;
+}
