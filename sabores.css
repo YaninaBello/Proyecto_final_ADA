@@ -11,8 +11,10 @@
 
 body{
     background-color: rgb(247, 200, 198);
+}
+.container-sabores {
     background-image: url(PNG-helado-y-bochitas.png);
-    background-position: center;
+    background-position:center;
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -60,101 +62,48 @@ h1{
 
 }
 
-.container-sabores{
-    font-size: 3vh;
-    text-align:center;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-family: 'Roboto Condensed Light', sans-serif;
-
-
-
+.container{
+    width: 100;
+    display: flex;
+    /*max-width: 1100px;*/
 }
 
-
-
-
-
-
-
-
-/*.tarjetas{
-    display: flex;
-    justify-content:stretch;
-    flex-direction: column;
-
-
-}*/
-
-.tarjetas{
-    display: flex;
-    flex-direction: row;
-    
-    
-    
-
-}
-
-.tarjetita-p {
-    border: 1px solid rgb(200, 200, 200);
-    background-color: transparent;
-    border-radius: 10px;
-    margin: 10px;    
-    box-shadow: -1px 4px 8px -4px rgba(0,0,0,0.75);
-    max-width: 10%;
-    max-height: 30vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-
-}
-
-.texto{
+.card{
     width: 100%;
-    text-align: center;
-    /*padding: 15px;*/
-}
-
-.contenedor-img{
-
-    /*width: 100%;
-    height: 100%;*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    height: 30vh;
+    margin: 20px;
+    border-radius: 6px;
     overflow: hidden;
-    border-radius: 10px;
-
-    
-    
-    
+    /*background: #fff;*/
+    background: transparent;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
 }
 
-img{
-    display:flex;
-    
-    
-
-
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
 }
 
-/*.fondo{
-    background-image: url(e302cee5bb7dc534120da6237a0ce3d8--winter-background-bleu.jpg);
-}*/
-
-.apartado{
-    /*display: flex;
-    flex-direction: column;*/
-    align-items: center; 
-    /*background-color: azure;*/
-    padding-bottom: 100px; 
+.card img{
+    width: 100%;
+    height: 200px;
 }
 
-
-
-/*p {
+.card .contenido{
     padding: 15px;
-}*/
+    text-align: center;
+}
+
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+h2{
+    text-align: center;
+}
 
 footer{
     font-size: 1.5vh;
@@ -164,3 +113,5 @@ footer{
     text-align: center;
     background-color: black;
 }
+
+
