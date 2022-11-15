@@ -1,0 +1,120 @@
+@import url('http://fonts.cdnfonts.com/css/masiku');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;                                           
+    scroll-behavior: smooth;
+    
+}
+
+
+.dir{
+    background-color: black;
+    text-align: center;
+       
+}
+
+.dir p span{
+    font-size: 2vh;
+    color: darkgrey;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed Light', sans-serif; 
+
+}
+
+.main{
+    background-image: repeating-linear-gradient(157.5deg, rgb(0,0,0) 0px, rgb(0,0,0) 20px,transparent 20px, transparent 22px),repeating-linear-gradient(90deg, rgb(0,0,0) 0px, rgb(0,0,0) 20px,transparent 20px, transparent 22px),linear-gradient(90deg, hsl(333,93%,55%),hsl(45,93%,55%),hsl(117,93%,55%),hsl(189,93%,55%),hsl(261,93%,55%));
+}
+
+nav{
+    text-align:left;
+    padding: 10px 0px;
+}
+
+nav ul li{
+    display: inline;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 0px 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed Light', sans-serif;
+}
+
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box-footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box-footer .logo img{
+    width: 180px;
+}
+
+.box-footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+
+.box-footer h2{
+    margin-bottom: 30px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.box-footer a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.box-footer a:hover{
+    opacity: 0.8;
+}
+
+.box-footer a .fab{
+    font-size: 50px;  
+}
+
+.box-copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box-copyright p{
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+.box-copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
