@@ -21,7 +21,8 @@
     font-family: 'Roboto Condensed Light', sans-serif;
 }
 .main{
-    background-image: repeating-linear-gradient(157.5deg, rgb(0,0,0) 0px, rgb(0,0,0) 20px,transparent 20px, transparent 22px),repeating-linear-gradient(90deg, rgb(0,0,0) 0px, rgb(0,0,0) 20px,transparent 20px, transparent 22px),linear-gradient(90deg, hsl(333,93%,55%),hsl(45,93%,55%),hsl(117,93%,55%),hsl(189,93%,55%),hsl(261,93%,55%));  
+    background-color:rgb(247, 200, 198) ;
+    /*background-image: repeating-linear-gradient(157.5deg, rgb(0,0,0) 0px, rgb(0,0,0) 20px,transparent 20px, transparent 22px),repeating-linear-gradient(90deg, rgb(0,0,0) 0px, rgb(0,0,0) 20px,transparent 20px, transparent 22px),linear-gradient(90deg, hsl(333,93%,55%),hsl(45,93%,55%),hsl(117,93%,55%),hsl(189,93%,55%),hsl(261,93%,55%));*/  
 }
 .main nav{
     text-align:left;
@@ -38,6 +39,10 @@
     font-weight: 500;
     font-family: 'Roboto Condensed', sans-serif;
     font-family: 'Roboto Condensed Light', sans-serif;
+}
+.main a:hover{
+    opacity: 0.8;
+    color: black;
 }
 body{
     background-image: repeating-linear-gradient(157.5deg, rgba(255,255,255, 0.2) 0px, rgba(255,255,255, 0.2) 0px,transparent 0px, transparent 1px,rgba(255,255,255, 0.2) 1px, rgba(255,255,255, 0.2) 6px,transparent 6px, transparent 7px,rgba(255,255,255, 0.2) 7px, rgba(255,255,255, 0.2) 12px),repeating-linear-gradient(101deg, rgba(255,255,255, 0.2) 0px, rgba(255,255,255, 0.2) 0px,transparent 0px, transparent 1px,rgba(255,255,255, 0.2) 1px, rgba(255,255,255, 0.2) 6px,transparent 6px, transparent 7px,rgba(255,255,255, 0.2) 7px, rgba(255,255,255, 0.2) 12px),linear-gradient(101deg, rgb(255,174,81),rgb(255,174,81));
@@ -65,14 +70,22 @@ body{
 }
 .container-sabores{
     display: flex;
-    width: 100%;
-    height: 100vh; 
+    /*width: 100%;
+    height: 100vh;*/ 
     align-items:flex-start;
     justify-content: center;
-    background-image: url(PNG-helado-y-bochitas.png);
-    background-position:center;
+    background-image: url(01010101.png);
+    background-position:left bottom;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 50%;
+}
+.group1{
+    display: flex;
+    flex-direction: row;
+}
+.group2{
+    display: flex;
+    flex-direction: row;
 }
 .list h3{
     font-size: 40px;
@@ -107,7 +120,7 @@ body{
 h4{
     text-align: center;
     font-size: 60px;
-    padding-top: 60px;
+    padding-top: 50px;
     padding-bottom: 25px;
     font-family: 'Khamden Script', sans-serif;
     font-weight: 300;
@@ -145,14 +158,15 @@ h4{
     position:relative;
     align-items: center;
     justify-content:center;
-    width: 100%;
-    height: 100vh;   
+    height: 100vh;
+  
 }
 .cover video{
     position:absolute;
-    object-position: center;
-    top: 0;
+    object-position:center;
     left: 0; 
+    bottom: 0;
+    width:100%;  
 }
 footer{
     width: 100%;
@@ -167,7 +181,7 @@ footer{
     justify-content: space-between;
     max-width: 1200px;
     margin: auto;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
 }
 .box-footer{
     display: flex;
@@ -215,4 +229,102 @@ footer{
     border: none;
     height: 1px;
     background-color: #7a7a7a;
+}
+@media screen and (max-width: 768px) {
+    .main nav ul{
+        display: flex;
+        /*flex-direction: column;*/
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .title h1{
+        font-size: 80px;
+    }
+    .title h2{
+        font-size: 60px;
+    }
+    .container-sabores{
+        flex-direction: column;
+        background-image: none;
+    }
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 50%;
+    }
+    #postres{
+        padding-bottom: 0px;
+    }
+    #postres span{
+        font-size: 50px;
+    }
+    h4{
+        font-size: 50px;
+    }
+    .cover{
+        height: 50vh;  
+    }
+}
+@media screen and (max-width: 600px) {
+    .title h1{
+        font-size: 40px;
+    }
+    .title h2{
+        font-size: 30px;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+    }
+    .list ul li{
+        font-size: 15px;
+        line-height: 1.5;
+        /*margin-left: 10px;
+        margin-right: 5px;*/
+    }
+    .list h3{
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 25px; 
+    }  
+    .group1 .list ul li{
+        margin-left: 10px;
+    }
+    .group2 .list ul li{
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 80%;
+    }
+    #postres span{
+        font-size: 25px;
+    }
+    h4{
+        font-size: 24px;
+    }
+    .card .contenido h5{
+        font-size: 15px;
+    }
+    .cover video{ 
+        object-fit: fill;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main nav ul{
+        flex-direction: column;
+    }
+    .title h1{
+        font-size: 34px;
+    }
 }

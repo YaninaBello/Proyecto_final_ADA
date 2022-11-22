@@ -25,7 +25,8 @@ header{
     font-family: 'Roboto Condensed Light', sans-serif;
 }
 .main{
-    background-image: repeating-linear-gradient(157.5deg, rgb(0,0,0) 0px, rgb(0,0,0) 20px,transparent 20px, transparent 22px),repeating-linear-gradient(90deg, rgb(0,0,0) 0px, rgb(0,0,0) 20px,transparent 20px, transparent 22px),linear-gradient(90deg, hsl(333,93%,55%),hsl(45,93%,55%),hsl(117,93%,55%),hsl(189,93%,55%),hsl(261,93%,55%));  
+    background-color: rgb(0, 0, 0);
+    /*background-image: repeating-linear-gradient(157.5deg, rgb(0,0,0) 0px, rgb(0,0,0) 20px,transparent 20px, transparent 22px),repeating-linear-gradient(90deg, rgb(0,0,0) 0px, rgb(0,0,0) 20px,transparent 20px, transparent 22px),linear-gradient(90deg, hsl(333,93%,55%),hsl(45,93%,55%),hsl(117,93%,55%),hsl(189,93%,55%),hsl(261,93%,55%));  */
 }
 .main nav{
     text-align:left;
@@ -42,6 +43,10 @@ header{
     font-weight: 500;
     font-family: 'Roboto Condensed', sans-serif;
     font-family: 'Roboto Condensed Light', sans-serif;
+}
+.main a:hover{
+    opacity: 0.8;
+    color: rgb(245, 142, 206);
 }
 body{
     font-family: 'Roboto Condensed', sans-serif;
@@ -262,7 +267,9 @@ main{
 }
 footer{
     width: 100%;
-    padding: 50px 0px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    /*padding: 50px 0px;*/
     font-family: 'Roboto Condensed', sans-serif;
 }
 .container-footer{
@@ -271,7 +278,7 @@ footer{
     justify-content: space-between;
     max-width: 1200px;
     margin: auto;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
 }
 .box-footer{
     display: flex;
