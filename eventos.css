@@ -26,7 +26,6 @@ header{
 }
 .main{
     background-color: rgb(0, 0, 0);
-    /*background-image: repeating-linear-gradient(157.5deg, rgb(0,0,0) 0px, rgb(0,0,0) 20px,transparent 20px, transparent 22px),repeating-linear-gradient(90deg, rgb(0,0,0) 0px, rgb(0,0,0) 20px,transparent 20px, transparent 22px),linear-gradient(90deg, hsl(333,93%,55%),hsl(45,93%,55%),hsl(117,93%,55%),hsl(189,93%,55%),hsl(261,93%,55%));  */
 }
 .main nav{
     text-align:left;
@@ -55,7 +54,6 @@ body{
 }
 main{
     background-image: linear-gradient(148deg, rgba(225,56,255, 0.24) 0%, rgba(225,56,255, 0.24) 16.667%,rgba(172, 103, 250, 0.37) 16.667%, rgba(172,103,250, 0.37) 33.334%,rgb(255,224,217) 33.334%, rgb(255,224,217) 50.001000000000005%,rgba(233,87,89, 0.32) 50.001%, rgba(233,87,89, 0.32) 66.668%,rgba(219,248,227, 0.46) 66.668%, rgb(219, 248, 227) 83.33500000000001%,rgba(138,251,236, 0.32) 83.335%, rgba(138,251,236, 0.32) 100.002%);
-    /*background-attachment: fixed;*/
 }
 .cover{
     display: flex;
@@ -84,7 +82,6 @@ main{
     text-align: center;
     width: 100%;
     height: 100%;
-    /*font-family: 'Masiku', sans-serif;*/
     font-family: 'f Finish', sans-serif;
     color: #fff;
 }
@@ -99,7 +96,6 @@ main{
     font-size: 30px;
     margin-bottom: 50px;
     margin-top: 10px;
-    /*font-family: 'Khamden Script', sans-serif;*/
 }
 #service{
     display: flex;
@@ -132,7 +128,6 @@ main{
     color: rgba(224, 155, 213, 0.774);
     font-weight: 900;
 }
-
 #service .text p{
     font-size: 20px;
     line-height: 30px;
@@ -251,7 +246,6 @@ main{
     width: 100%;
     height: 100vh;
     background-position: bottom;
-    /*display: table;*/
     background-attachment: fixed;
     text-align: center;
     display: flex;
@@ -263,13 +257,11 @@ main{
     font-size: 200px;
     width: 100%;
     font-family: 'f Finish', sans-serif;
-
 }
 footer{
     width: 100%;
     padding-top: 100px;
     padding-bottom: 50px;
-    /*padding: 50px 0px;*/
     font-family: 'Roboto Condensed', sans-serif;
 }
 .container-footer{
@@ -278,7 +270,6 @@ footer{
     justify-content: space-between;
     max-width: 1200px;
     margin: auto;
-    /*margin-top: 100px;*/
 }
 .box-footer{
     display: flex;
@@ -436,8 +427,7 @@ footer{
     .card{
         width: 200px;
         height: 250px;
-        margin: 20px;
-          
+        margin: 20px;    
     }
     .card .back h3{
         font-size: 12px;

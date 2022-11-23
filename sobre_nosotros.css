@@ -65,6 +65,14 @@ body{
     padding-top: 2.5%;
     padding-bottom: 2.5%;
 }
+section h2{
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+    font-family: 'Khamden Script', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+}
 .container{
     display: flex;
     flex-direction: row;
@@ -182,16 +190,13 @@ h3{
 }
 .text-3 p{
     font-size: 20px;
-    margin: 50px;
     width: 90%; 
     line-height: 1.5; 
 }
 footer{
-    /*margin-top: 100px;*/
     width: 100%;
     padding-top: 100px;
     padding-bottom: 50px;
-    /*padding: 50px 0px;*/
     font-family: 'Roboto Condensed', sans-serif;
 }
 .container-footer{
@@ -200,7 +205,6 @@ footer{
     justify-content: space-between;
     max-width: 1200px;
     margin: auto;
-    /*margin-top: 100px;*/
 }
 .box-footer{
     display: flex;
@@ -322,6 +326,9 @@ footer{
         width: 280px;
         height: 180px;
     }
+    .text-3 p{
+        margin-left: 10px; 
+     }
 }
 @media screen and (max-width: 320px) {
     .main nav ul{
